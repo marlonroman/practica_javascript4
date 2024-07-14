@@ -27,4 +27,12 @@ function multiplicar(){
     document.getElementById("mostrar").textContent = multiplicar;
 }
 
+function division(){
+    num1 = Number(document.getElementById("numero1").value);
+    num2 = Number(document.getElementById("numero2").value);
+    division = num1 / num2;
+    console.log(division);
+    document.getElementById("mostrar").textContent = division;
+}
+
 
