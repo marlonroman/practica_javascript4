@@ -1,5 +1,4 @@
-const num1 = document.getElementById("numero1").value;
-const num2 = document.getElementById("numero2").value;
+
 
 function sumar(){
     const num1 = document.getElementById("numero1").value;
@@ -12,8 +11,12 @@ function sumar(){
     document.getElementById("mostrar").textContent = sumar
 }
 
-document.getElementById("restar").onclick = function(){
-    num1 = document.getElement
+function restar(){
+    num1 = Number(document.getElementById("numero1").value);
+    num2 = Number(document.getElementById("numero2").value);
+    console.log(num1);
+    restar = num1 - num2;
+    document.getElementById("mostrar").textContent = restar;
 }
 
 
