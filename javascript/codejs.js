@@ -19,4 +19,12 @@ function restar(){
     document.getElementById("mostrar").textContent = restar;
 }
 
+function multiplicar(){
+    num1 = Number(document.getElementById("numero1").value);
+    num2 = Number(document.getElementById("numero2").value);
+    console.log(num1);
+    multiplicar = num1 * num2;
+    document.getElementById("mostrar").textContent = multiplicar;
+}
+
 
